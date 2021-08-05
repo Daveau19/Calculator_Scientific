@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash_Screen"
+    android:orientation="vertical"
+    android:background="@color/black" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/second_line"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:background="#F40606"
+            android:layout_toRightOf="@+id/first_line"/>
+
+        <View
+            android:id="@+id/third_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:background="#FFC107"
+            android:layout_toRightOf="@+id/second_line"/>
+
+        <View
+            android:id="@+id/fourth_line"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:background="#03A9F4"
+            android:layout_toRightOf="@+id/third_line"/>
+
+        <View
+            android:id="@+id/fifth_line"
+            android:layout_width="20dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="8dp"
+            android:background="#FDFBFB"
+            android:layout_toRightOf="@+id/fourth_line"/>
+
+        <View
+            android:id="@+id/sixth_line"
+            android:layout_width="20dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="8dp"
+            android:background="#11E1CE"
+            android:layout_toRightOf="@+id/fifth_line"/>
+
+        <View
+            android:id="@+id/seventh_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:background="#FFC107"
+            android:layout_toRightOf="@+id/sixth_line"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/img_cal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/scienti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Calculator "
+            android:textColor="#F4F3EF"
+            android:textSize="42sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Scientific"
+            android:textColor="#F4F3EF"
+            android:textSize="42sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
